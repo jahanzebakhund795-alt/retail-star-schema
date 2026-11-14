@@ -1,0 +1,20 @@
+{
+  "grain": "one row per sale",
+  "totals": [
+    [
+      "East",
+      "Tools",
+      800
+    ],
+    [
+      "West",
+      "Books",
+      500
+    ],
+    [
+      "West",
+      "Tools",
+      1200
+    ]
+  ]
+}

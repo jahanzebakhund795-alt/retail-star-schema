@@ -1,0 +1,28 @@
+{
+  "sales": [
+    {
+      "id": "s1",
+      "customer": "c1",
+      "region": "West",
+      "product": "p1",
+      "category": "Tools",
+      "cents": 1200
+    },
+    {
+      "id": "s2",
+      "customer": "c2",
+      "region": "East",
+      "product": "p1",
+      "category": "Tools",
+      "cents": 800
+    },
+    {
+      "id": "s3",
+      "customer": "c1",
+      "region": "West",
+      "product": "p2",
+      "category": "Books",
+      "cents": 500
+    }
+  ]
+}
