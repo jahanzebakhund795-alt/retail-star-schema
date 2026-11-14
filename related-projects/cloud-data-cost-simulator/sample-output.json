@@ -1,0 +1,19 @@
+{
+  "pricing": "invented user-editable assumptions; not provider quotes",
+  "scenarios": [
+    {
+      "compute": "240.00",
+      "monthly_total": "430.00",
+      "name": "illustrative-baseline",
+      "scan": "150.00",
+      "storage": "40.00"
+    },
+    {
+      "compute": "192.00",
+      "monthly_total": "269.50",
+      "name": "illustrative-partitioned",
+      "scan": "37.50",
+      "storage": "40.00"
+    }
+  ]
+}

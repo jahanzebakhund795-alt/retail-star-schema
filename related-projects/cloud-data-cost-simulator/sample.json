@@ -1,0 +1,23 @@
+{
+  "assumptions": {
+    "storage_gb": 2000,
+    "compute_hours": 120,
+    "scan_tb": 30
+  },
+  "scenarios": [
+    {
+      "name": "illustrative-baseline",
+      "storage_per_gb": 0.02,
+      "compute_per_hour": 2,
+      "scan_per_tb": 5
+    },
+    {
+      "name": "illustrative-partitioned",
+      "storage_per_gb": 0.02,
+      "compute_per_hour": 2,
+      "scan_per_tb": 5,
+      "scan_multiplier": 0.25,
+      "compute_multiplier": 0.8
+    }
+  ]
+}

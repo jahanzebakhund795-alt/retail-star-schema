@@ -1,0 +1,17 @@
+{
+  "after": {
+    "plan": [
+      "SEARCH sales USING COVERING INDEX sales_customer_cents (customer=?)"
+    ],
+    "seconds": 2.9187999999999437e-05,
+    "total_cents": 98400
+  },
+  "before": {
+    "plan": [
+      "SCAN sales"
+    ],
+    "seconds": 0.0007904910000000043,
+    "total_cents": 98400
+  },
+  "results_equal": true
+}
